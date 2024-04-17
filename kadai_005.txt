@@ -1,0 +1,17 @@
+PS C:\Users\asuka> cd C:\Users\asuka\OneDrive\デスクトップ\samurai
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai> mkdir 課題
+
+
+
+
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai> cd 課題
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai\課題> git init git_challenge
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai\課題> cd C:\Users\asuka\OneDrive\デスクトップ\samurai\課題\git_challenge
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai\課題\git_challenge> git commit -m "Hello, world!"
+[main (root-commit) 4cebadd] Hello, world!
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai\課題\git_challenge> git commit -m "日本語訳を追記"
+[main a846173] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\asuka\OneDrive\デスクトップ\samurai\課題\git_challenge> git log --oneline
+a846173 (HEAD -> main) 日本語訳を追記
+4cebadd Hello, world!
